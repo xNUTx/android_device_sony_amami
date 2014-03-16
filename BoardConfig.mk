@@ -13,13 +13,13 @@
 # limitations under the License.
 
 # inherit from the common rhine definitions
--include device/sony/rhine-common/BoardConfigCommon.mk
+include device/sony/rhine-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 #-include vendor/sony/amami/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D5503,amami
+TARGET_OTA_ASSERT_DEVICE := D5502,D5503,amami
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
 
