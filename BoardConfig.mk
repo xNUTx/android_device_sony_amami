@@ -26,7 +26,8 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/amami/bluetooth
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_rhine_amami_row_defconfig
+#TARGET_KERNEL_CONFIG := cm_rhine_amami_row_defconfig
+TARGET_PREBUILT_KERNEL := device/sony/amami/prebuilt/boguskernel
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
